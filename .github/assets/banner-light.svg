@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="CS NEA Game: a pygame side-scrolling shooter platformer">
+  <rect width="1280" height="360" fill="#faf8f5"/>
+  <rect x="24.5" y="24.5" width="1231" height="311" fill="none" stroke="#e4dfd6"/>
+  <text x="80" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2.5" fill="#5c584f">TOMMYWUBC / CS-NEA-GAME</text>
+  <line x1="80" y1="124" x2="140" y2="124" stroke="#1d3a6e" stroke-width="2"/>
+  <text x="78" y="200" font-family="ui-serif, Georgia, 'Times New Roman', serif" font-size="70" fill="#2a2823">CS NEA Game</text>
+  <text x="80" y="244" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#5c584f">A side-scrolling pygame shooter. A-level coursework.</text>
+  <text x="80" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#5c584f">PYTHON · PYGAME · 2025</text>
+
+  <g transform="translate(700 60)">
+    <!-- stepped ground -->
+    <path d="M0 214 H100 V202 H200 V210 H300 V190 H400 V206 H500" fill="none" stroke="#2a2823" stroke-width="1.5"/>
+    <path d="M0 214 H100 V202 H200 V210 H300 V190 H400 V206 H500 V240 H0 Z" fill="#f2efe9"/>
+    <!-- floating platforms -->
+    <rect x="60" y="130" width="70" height="8" fill="#f2efe9" stroke="#2a2823" stroke-width="1.2"/>
+    <rect x="260" y="110" width="70" height="8" fill="#f2efe9" stroke="#2a2823" stroke-width="1.2"/>
+    <!-- player -->
+    <rect x="40" y="186" width="14" height="18" transform="translate(0 10)" fill="#1d3a6e"/>
+    <!-- player bullets, three weapons -->
+    <rect x="72" y="200" width="10" height="3" fill="#2a2823"/>
+    <rect x="96" y="199" width="14" height="5" fill="#2a2823"/>
+    <rect x="124" y="200" width="6" height="2" fill="#2a2823"/>
+    <!-- enemies -->
+    <rect x="88" y="112" width="14" height="18" fill="none" stroke="#2a2823" stroke-width="1.5"/>
+    <rect x="288" y="92" width="14" height="18" fill="none" stroke="#c8553d" stroke-width="1.5"/>
+    <rect x="230" y="192" width="14" height="18" fill="none" stroke="#2a2823" stroke-width="1.5"/>
+    <rect x="340" y="172" width="14" height="18" fill="none" stroke="#c8553d" stroke-width="1.5"/>
+    <rect x="320" y="147" width="8" height="3" fill="#c8553d"/>
+    <rect x="296" y="182" width="8" height="3" fill="#c8553d"/>
+    <!-- duplicating swarm -->
+    <g fill="#2a2823">
+      <rect x="420" y="194" width="9" height="12"/>
+      <rect x="436" y="194" width="9" height="12"/>
+      <rect x="452" y="194" width="9" height="12"/>
+      <rect x="444" y="178" width="9" height="12" opacity="0.35"/>
+    </g>
+    <!-- double-jump arc -->
+    <path d="M47 194 C 50 140, 70 120, 90 96" fill="none" stroke="#1d3a6e" stroke-width="1" stroke-dasharray="3 4"/>
+    <!-- HUD -->
+    <text x="0" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#5c584f">HEALTH 100</text>
+    <text x="0" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#5c584f">WEAPON 1</text>
+  </g>
+</svg>
